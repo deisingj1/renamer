@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "renamer", "renamer\renamer.pyproj", "{E0B2CE2F-2517-4D41-9940-F4BED13C6E0A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testing", "testing", "{5F89ECCE-B620-4820-B3BE-E1E612F352B0}"
+	ProjectSection(SolutionItems) = preProject
+		test_renamer.py = test_renamer.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA444D6D-C348-4A76-8476-2564CBBF3077}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +23,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0B2CE2F-2517-4D41-9940-F4BED13C6E0A} = {AA444D6D-C348-4A76-8476-2564CBBF3077}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE5D4E5B-A271-4287-A3A8-F4862E753154}
